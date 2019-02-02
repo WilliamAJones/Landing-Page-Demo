@@ -1,0 +1,129 @@
+.bold {
+    font-weight:bolder;
+}
+.navigation{
+    background: #000;
+    color: #007bff;
+    text-shadow: -1px -1px white;
+    letter-spacing: 4px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.name{
+    float: right;
+    overflow:bottom;
+    padding-top:10px;
+    padding-bottom:10px;
+    letter-spacing: 4px;
+}
+.photo{
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    max-width: 600px;
+    max-height: 400px;
+    border-radius: 8px;
+    align-content: center;
+}
+.bio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right:30px;
+    background-color: black;
+    border-top-color: white;
+    border-top-style:solid;
+    color: #007bff;
+    text-shadow: -1px -1px white;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+.portfolio {
+    background-image: url('./counterstrike_1280_aap.jpg');
+    background-size:cover;
+    text-shadow: -1px -1px white;
+    color:#007bff;
+    max-height: 100%;
+    border-top-color: white;
+    border-top-style:solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact{
+    padding-bottom: 30px;
+    padding-top:30px;
+    background:black;
+    color: white;
+    border-top-color: white;
+    border-top-style:solid;
+}
+.footer{
+    background: black;
+    color:white;
+    padding-top: 10px;
+    border-top-color: white;
+    border-top-style:solid;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: bottom;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+    text-shadow: -1px -1px white;
+  }
+  .card{
+    background-color: transparent;
+    box-shadow: 2px 2px 4px #e7e7e7;
+    border-radius: 4px;
+    padding: 5vw;
+    align-items: center;
+}
+.card.img {
+    border-radius: 20px;
+    max-width: 250px;
+    max-height: 200px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    
+  }
+  
+  .badge{
+    font-size: 60px;
+    letter-spacing: 10px;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.315);
+    align-content: center;
+  }
+
+  .button {
+    background-color:#007bff;
+    border: solid;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a.button:hover {
+    color: white;
+    text-decoration: underline;
+}
+.img{
+    border-radius: 20%;
+}
